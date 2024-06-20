@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+}
+.headerHero{
+    background-image: url(./images/heroback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 43.9rem;
+
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+    font-family: Montserrat;
+}
+    li{
+        list-style: none;
+        color: white;
+    }
+    .btn button{
+        background: #1BC768;
+        font-family: Montserrat
+        ;
+font-size: 16px;
+font-weight: 500;
+line-height: 21.86px;
+border: none;
+padding: .5rem 1.5rem;
+border-radius: 50px;
+cursor: pointer;
+color: white;
+
+    }
+    .hero{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        margin-bottom: -.3rem;
+    }
+    .heroText h2{
+        font-family: Montserrat;
+font-size: 40px;
+font-weight: 900;
+line-height: 65.57px;
+color: white;
+}
+.heroText p{
+    font-family: montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.59px;
+color: white;
+padding: 1rem 0;
+}
+.heroImage img{
+    width: 100%;
+    margin-top: 6rem;
+}
+.heroImage {
+    width: 40%;
+}
+.heroText{
+    width: 40%;
+    margin-top: 8rem;
+}
+.herobtn button{
+font-family: Montserrat;
+font-size: 16px;
+border: 1px solid white;
+padding: .5rem 2rem;
+border-radius: 50px;
+cursor: pointer;
+background: none;
+color: white;
+margin-right: 1.1rem;
+}
+.herobtn button:hover{
+background: white;
+color: blue
+}
+.herobtn{
+    margin-bottom: 2rem;
+}
+.heroform{
+    width: 100%;
+}
+.heroform input{
+    width: 70%;
+    padding: .7rem;
+    border-radius: 50px 0px 0px 50px;
+}
+.heroform button{
+    width: 20%;
+    padding: .7rem;
+    background: #1BC768;
+    color: white;
+    cursor: pointer;
+    border:#1BC768;
+    margin-left: -.3rem;
+    border-radius: 0px 50px 50px 0;
+
+}
+.innercontainer{
+    width: 80%;
+    margin: auto;
+}
+.affilliation{
+    text-align: center;
+    margin-top: 3rem;
+}
+.topAffilliate h2{
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 49.18px;
+    color: rgb(4, 60, 170, 1);
+}
+.lines{
+display: flex;
+width: 7.5%;
+margin: auto;
+}
+.blue{
+    width: 45.5px;
+    border: 2px solid rgba(4, 60, 170, 1);
+    border-radius: 50px 0px 0px 50px;
+}
+.green{
+    width: 45.5px;
+    border: 2px solid rgba(27, 199, 104, 1);
+    border-radius: 0px 50px 50px 0px;
+}
+.affilliateImages{
+    display: flex;
+    gap: 7rem;
+    width: 40%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.topBenefits h2{
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 49.18px;
+    color: rgb(4, 60, 170, 1);
+    text-align: center;
+}
+.medicine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.option{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    margin-top: 1rem;
+}
+.optionText p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    text-align: left;
+}
+.medicineText h5{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+    color: rgba(4, 60, 170, 1);
+    text-align: left;
+    width: 60;
+    padding-bottom: 1rem;
+}
+.medecineText button{
+    font-family: montserrat;
+    padding: 1rem, 2rem;
+    font-size: 10px;
+    font-weight: 500;
+    background: transparent;
+
+}
+.client{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+footer{
+    background-color:#043CAA;
+    ;
+}
+.footercontainer{
+    width: 60;
+    margin: auto;
+    padding: 2rem;
+}
+.signup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signupText h3{
+    font-family: montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24.59px;
+    color: #fff;
+}
+.signupInput Input{
+    padding: .7rem;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    width: 70%;
+}
+.signupInput button{
+    padding: .7rem;
+    background:rgb(27,199,104,1);
+    color: #fff;
+    cursor: pointer;
+    border: rgb(27,199,104,1);
+    margin-left: -.3rem;
+    border-radius: 0px 50px 50px 0px;
+    font-family: montserrat;
+
+}
+.signupInput{
+
+}
